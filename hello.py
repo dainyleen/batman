@@ -7,3 +7,4 @@
 
 # Create an input from a user
 first_name = input('What is your name? ')
+print('Hello,', first_name)
