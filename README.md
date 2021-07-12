@@ -1,2 +1,18 @@
-# Intro to Python
+# Python
+
 Learning the basics of Python 
+
+### Tech Talk
+
+1. Basic Syntax and Errors
+2. Creating Variables
+3. Strings and Numeric
+4. String Methods
+5. Booleans
+6. Conditionals
+7. Functions and Looping
+
+### Python Project
+
+
+
