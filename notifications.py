@@ -6,5 +6,6 @@ def yell(text):
 
 yell("You are doing great")
 yell("Don't forget to ask for help")
+yell("Don't Repeat Yourself")
 
 
