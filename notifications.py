@@ -1,7 +1,7 @@
 def yell(text):
     text = text.upper()
     number_of_char = len(text)
-    result = text + "!" * number_of_char 
+    result = text + "!" * (number_of_char // 4) 
     print(result)
 
 yell("You are doing great")
