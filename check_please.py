@@ -3,7 +3,6 @@ import math
 def split_check(total, number_of_people):
     if number_of_people <= 1:
         raise ValueError("More than 1 person is required to split the check")
-
     return math.ceil(total / number_of_people)
 
 try:
