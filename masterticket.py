@@ -9,8 +9,11 @@ while tickets_remaining >= 1:
     num_tickets = input("How many tickets would you like, {}? ".format(name))
     try:
        num_tickets = int(num_tickets)
-    except ValueError:
-        print("Oh no, we ran into an issue. Please try again")
+       if num_tickets > tickets_remaining:
+           raise ValueError("There are only {} tickets remaining".format(tickets_remaining))
+    except ValueError as err:
+        
+        print("Oh no, we ran into an issue. {}. Please try again".format(err))
     else:
         total_price = num_tickets * TICKET_PRICE
         print("The total due is ${}".format(total_price))
