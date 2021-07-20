@@ -1,6 +1,6 @@
-# Python Begins
+# Python 
 
-Learning the basics of Python 
+Python Begins - learning the fundamentals
 
 ### Tech Talk
 
