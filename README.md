@@ -1,9 +1,7 @@
 # Python 
-
 Python Begins - learning the fundamentals
 
 ### Tech Talk
-
 1. Basic Syntax and Errors
 2. Creating Variables
 3. Strings and Numeric
@@ -13,7 +11,6 @@ Python Begins - learning the fundamentals
 7. Functions and Looping
 
 ### Python Project
-
 Building a ticket master console app using Python
 
 
